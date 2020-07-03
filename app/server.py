@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=16Q4An4g0WURKoncUnxW59-uMZrZ1aatF'
-export_file_name = 'export.pkl'
+export_file_name = 'coin-v1.pkl'
 
 classes = ['EARLY MEDIEVAL', 'POST MEDIEVAL', 'MEDIEVAL', 'ROMAN', 'IRON AGE', 'GREEK AND ROMAN PROVINCIAL']
 path = Path(__file__).parent
