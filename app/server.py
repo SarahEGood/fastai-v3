@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = ''
-export_file_name = 'model-v1.pkl'
+export_file_name = 'model.pkl'
 
 classes = ['EARLY MEDIEVAL', 'POST MEDIEVAL', 'MEDIEVAL', 'ROMAN', 'IRON AGE', 'GREEK AND ROMAN PROVINCIAL']
 path = Path(__file__).parent
