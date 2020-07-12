@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    font-family: Arial, Helvetica, san-serif;
 }
 
 .no-display {
@@ -14,10 +15,11 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 42px;
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
+    font-weight: bold;
 }
 
 .content {
